@@ -14,7 +14,7 @@ function App() {
     <>
       <Header />
       <div className='grid grid-cols-1 lg:grid-cols-4 gap-3 justify-between'>
-        <div className='ps-4 mt-[85px] flex justify-center sticky col-span-1 overflow-auto h-fit top-[85px]'>
+        <div className='ps-2 mt-[85px] flex  sticky col-span-1 overflow-auto h-fit top-[85px]'>
             <div className='hidden lg:block'>
             <Leftsidebar className='hidden lg:block'/>
             </div>
