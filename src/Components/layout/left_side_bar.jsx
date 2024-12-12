@@ -1,52 +1,19 @@
 import React from 'react'
-import home from '../../images/story.jpg'
-
+import { Side_bar } from './lef-side-bar-data'
+// import Side_bar from '' 
 function Left_side_bar() {
-    const Side_bar = [
-        {
-            id: 1,
-            icon: home,
-            text: 'Muhammad NaeemUllah',
-        },
-        {
-            id: 2,
-            icon: home,
-            text: 'Muhammad NaeemUllah',
-        },
-        {
-            id: 3,
-            icon: home,
-            text: 'Muhammad NaeemUllah',
-        },
-        {
-            id: 4,
-            icon: home,
-            text: 'Muhammad NaeemUllah',
-        },
-        {
-            id: 5,
-            icon: home,
-            text: 'Muhammad NaeemUllah',
-        },
-        {
-            id: 6,
-            icon: home,
-            text: 'Muhammad NaeemUllah',
-        },
-        {
-            id: 7,
-            icon: home,
-            text: 'Muhammad NaeemUllah',
-        },
-    ]
+
     return (
         <div>
-            <div className=' flex flex-col gap-4'>
-                {Side_bar.map((item) => (
-                    <div className='flex gap-2 items-center hover:bg-blue-500 hover:text-white py-2 px-3 rounded-md transition all duration-200' key={item.id}>
-                        <img className='rounded-full' src={item.icon} alt="icon" style={{ width: '30px', height: '30px' }} />
-                        <p className='font-medium'>{item.text}</p>
-                    </div>
+            <div className=' flex flex-col gap-2'>
+                {Side_bar.map((item, index) => (
+                    <React.Fragment key={Side_bar.id}>
+                        <div className='flex gap-2 items-center hover:bg-[#e2e5e9]  py-2 px-3 rounded-md transition all duration-200' key={item.id}>
+                            <img className={`w-6 h-6 ${item.className || ''}`} src={item.icon} alt="icon" />
+                            <p className='font-medium'>{item.text}</p>
+                        </div>
+                        {index === Side_bar.length - 1 && <hr className="my-4 border-t border-gray-300" />}
+                    </React.Fragment>
                 ))}
             </div>
 

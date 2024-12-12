@@ -5,7 +5,7 @@ import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import 'swiper/css/scrollbar';
-import CarouselImage from '../../images/story.jpg'
+import CarouselImage from '../../assets/images/story.jpg'
 function Swipper() {
     return (
         <Swiper
@@ -32,33 +32,33 @@ function Swipper() {
             swiper-pagination-bullet={{ 'display': 'none' }}>
             <SwiperSlide>
                 <div className='relative hover:opacity-[0.7] transition-all duration-200'>
-                    <img className='h-[160px] rounded-lg' src={CarouselImage} alt="" />
-                    <div className='rounded-tr-none rounded-tl-none absolute rounded-lg top-[120px] flex justify-center border h-[70px] bg-white w-full'>
+                    <img className='h-[200px] w-full rounded-xl' src={CarouselImage} alt="" />
+                    <div className='rounded-tr-none rounded-tl-none absolute rounded-lg top-[130px] flex justify-center border h-[70px] bg-white w-full'>
                         <i class="fa-solid fa-circle-plus mt-[-20px] p-1 bg-white rounded-full text-[40px] text-blue-600"></i>
                     </div>
                 </div>
             </SwiperSlide>
-            <SwiperSlide className='hover:opacity-[0.7] transition-all duration-200'><img className='h-[160px] rounded-lg' src={CarouselImage} alt="" /></SwiperSlide>
-            <SwiperSlide className='hover:opacity-[0.7] transition-all duration-200'><img className='h-[160px] rounded-lg' src={CarouselImage} alt="" /></SwiperSlide>
-            <SwiperSlide className='hover:opacity-[0.7] transition-all duration-200'><img className='h-[160px] rounded-lg' src={CarouselImage} alt="" /></SwiperSlide>
-            <SwiperSlide className='hover:opacity-[0.7] transition-all duration-200'><img className='h-[160px] rounded-lg' src={CarouselImage} alt="" /></SwiperSlide>
-            <SwiperSlide className='hover:opacity-[0.7] transition-all duration-200'><img className='h-[160px] rounded-lg' src={CarouselImage} alt="" /></SwiperSlide>
-            <SwiperSlide className='hover:opacity-[0.7] transition-all duration-200'><img className='h-[160px] rounded-lg' src={CarouselImage} alt="" /></SwiperSlide>
-            <SwiperSlide className='hover:opacity-[0.7] transition-all duration-200'><img className='h-[160px] rounded-lg' src={CarouselImage} alt="" /></SwiperSlide>
-            <SwiperSlide className='hover:opacity-[0.7] transition-all duration-200'><img className='h-[160px] rounded-lg' src={CarouselImage} alt="" /></SwiperSlide>
-            <SwiperSlide className='hover:opacity-[0.7] transition-all duration-200'><img className='h-[160px] rounded-lg' src={CarouselImage} alt="" /></SwiperSlide>
-            <SwiperSlide className='hover:opacity-[0.7] transition-all duration-200'><img className='h-[160px] rounded-lg' src={CarouselImage} alt="" /></SwiperSlide>
-            <SwiperSlide className='hover:opacity-[0.7] transition-all duration-200'><img className='h-[160px] rounded-lg' src={CarouselImage} alt="" /></SwiperSlide>
-            <SwiperSlide className='hover:opacity-[0.7] transition-all duration-200'><img className='h-[160px] rounded-lg' src={CarouselImage} alt="" /></SwiperSlide>
-            <SwiperSlide className='hover:opacity-[0.7] transition-all duration-200'><img className='h-[160px] rounded-lg' src={CarouselImage} alt="" /></SwiperSlide>
-            <SwiperSlide className='hover:opacity-[0.7] transition-all duration-200'><img className='h-[160px] rounded-lg' src={CarouselImage} alt="" /></SwiperSlide>
-            <SwiperSlide className='hover:opacity-[0.7] transition-all duration-200'><img className='h-[160px] rounded-lg' src={CarouselImage} alt="" /></SwiperSlide>
-            <SwiperSlide className='hover:opacity-[0.7] transition-all duration-200'><img className='h-[160px] rounded-lg' src={CarouselImage} alt="" /></SwiperSlide>
-            <SwiperSlide className='hover:opacity-[0.7] transition-all duration-200'><img className='h-[160px] rounded-lg' src={CarouselImage} alt="" /></SwiperSlide>
-            <SwiperSlide className='hover:opacity-[0.7] transition-all duration-200'><img className='h-[160px] rounded-lg' src={CarouselImage} alt="" /></SwiperSlide>
-            <SwiperSlide className='hover:opacity-[0.7] transition-all duration-200'><img className='h-[160px] rounded-lg' src={CarouselImage} alt="" /></SwiperSlide>
-            <SwiperSlide className='hover:opacity-[0.7] transition-all duration-200'><img className='h-[160px] rounded-lg' src={CarouselImage} alt="" /></SwiperSlide>
-            <SwiperSlide className='hover:opacity-[0.7] transition-all duration-200'><img className='h-[160px] rounded-lg' src={CarouselImage} alt="" /></SwiperSlide>
+            <SwiperSlide className='hover:opacity-[0.7] transition-all duration-200'><img className='h-[200px] w-full rounded-xl' src={CarouselImage} alt="" /></SwiperSlide>
+            <SwiperSlide className='hover:opacity-[0.7] transition-all duration-200'><img className='h-[200px] w-full rounded-xl' src={CarouselImage} alt="" /></SwiperSlide>
+            <SwiperSlide className='hover:opacity-[0.7] transition-all duration-200'><img className='h-[200px] w-full rounded-xl' src={CarouselImage} alt="" /></SwiperSlide>
+            <SwiperSlide className='hover:opacity-[0.7] transition-all duration-200'><img className='h-[200px] w-full rounded-xl' src={CarouselImage} alt="" /></SwiperSlide>
+            <SwiperSlide className='hover:opacity-[0.7] transition-all duration-200'><img className='h-[200px] w-full rounded-xl' src={CarouselImage} alt="" /></SwiperSlide>
+            <SwiperSlide className='hover:opacity-[0.7] transition-all duration-200'><img className='h-[200px] w-full rounded-xl' src={CarouselImage} alt="" /></SwiperSlide>
+            <SwiperSlide className='hover:opacity-[0.7] transition-all duration-200'><img className='h-[200px] w-full rounded-xl' src={CarouselImage} alt="" /></SwiperSlide>
+            <SwiperSlide className='hover:opacity-[0.7] transition-all duration-200'><img className='h-[200px] w-full rounded-xl' src={CarouselImage} alt="" /></SwiperSlide>
+            <SwiperSlide className='hover:opacity-[0.7] transition-all duration-200'><img className='h-[200px] w-full rounded-xl' src={CarouselImage} alt="" /></SwiperSlide>
+            <SwiperSlide className='hover:opacity-[0.7] transition-all duration-200'><img className='h-[200px] w-full rounded-xl' src={CarouselImage} alt="" /></SwiperSlide>
+            <SwiperSlide className='hover:opacity-[0.7] transition-all duration-200'><img className='h-[200px] w-full rounded-xl' src={CarouselImage} alt="" /></SwiperSlide>
+            <SwiperSlide className='hover:opacity-[0.7] transition-all duration-200'><img className='h-[200px] w-full rounded-xl' src={CarouselImage} alt="" /></SwiperSlide>
+            <SwiperSlide className='hover:opacity-[0.7] transition-all duration-200'><img className='h-[200px] w-full rounded-xl' src={CarouselImage} alt="" /></SwiperSlide>
+            <SwiperSlide className='hover:opacity-[0.7] transition-all duration-200'><img className='h-[200px] w-full rounded-xl' src={CarouselImage} alt="" /></SwiperSlide>
+            <SwiperSlide className='hover:opacity-[0.7] transition-all duration-200'><img className='h-[200px] w-full rounded-xl' src={CarouselImage} alt="" /></SwiperSlide>
+            <SwiperSlide className='hover:opacity-[0.7] transition-all duration-200'><img className='h-[200px] w-full rounded-xl' src={CarouselImage} alt="" /></SwiperSlide>
+            <SwiperSlide className='hover:opacity-[0.7] transition-all duration-200'><img className='h-[200px] w-full rounded-xl' src={CarouselImage} alt="" /></SwiperSlide>
+            <SwiperSlide className='hover:opacity-[0.7] transition-all duration-200'><img className='h-[200px] w-full rounded-xl' src={CarouselImage} alt="" /></SwiperSlide>
+            <SwiperSlide className='hover:opacity-[0.7] transition-all duration-200'><img className='h-[200px] w-full rounded-xl' src={CarouselImage} alt="" /></SwiperSlide>
+            <SwiperSlide className='hover:opacity-[0.7] transition-all duration-200'><img className='h-[200px] w-full rounded-xl' src={CarouselImage} alt="" /></SwiperSlide>
+            <SwiperSlide className='hover:opacity-[0.7] transition-all duration-200'><img className='h-[200px] w-full rounded-xl' src={CarouselImage} alt="" /></SwiperSlide>
         </Swiper>
     )
 }

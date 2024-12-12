@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
-import facebookLogo from '../../images/communication_15047435.png'
+import facebookLogo from '../../assets/images/communication_15047435.png'
 import { Link } from 'react-router-dom';
-import userProfile from '../../images/USER-PROFILE.jpg'
+import userProfile from '../../assets/images/USER-PROFILE.jpg'
 function Header() {
     const [ , setNavbar] = useState (false)
     const color_bar = () => {

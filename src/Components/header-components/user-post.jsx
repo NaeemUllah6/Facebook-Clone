@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
-import userProfile from '../../images/USER-PROFILE.jpg'
-import userPost from '../../images/story.jpg'
+import userProfile from '../../assets/images/USER-PROFILE.jpg'
+import userPost from '../../assets/images/story.jpg'
 function UserPost() {
     const posts = [
         {
@@ -95,7 +95,7 @@ function UserPost() {
                 {
                     posts.map((post, index) => (
 
-                        <div className={`${clicked[index] ? 'hidden' : 'block'}`}>
+                        <div className={`${clicked[index===posts] ? 'hidden' : 'block'}`}>
                             <div className='flex items-center justify-between p-4 bg-white rounded-lg'>
                                 <div className='flex items-center gap-2'>
                                     <img className='rounded-full w-full h-auto' src={userProfile} alt="Profile" />
@@ -105,8 +105,8 @@ function UserPost() {
                                     </div>
                                 </div>
                                 <div className='flex items-center gap-3'>
-                                    <i class=" fa-solid fa-ellipsis text-[#65686c]"></i>
-                                    <button onClick={disappear}><i className='fa fa-xmark text-[#65686c]'></i></button>
+                                    <i class=" fa-solid fa-ellipsis text-[#65686c] text-2xl"></i>
+                                    <button onClick={disappear}><i className='fa fa-xmark text-[#65686c] text-2xl'></i></button>
                                 </div>
                             </div>
 
