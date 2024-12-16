@@ -15,11 +15,11 @@ function App() {
       <Header />
       <div className='grid grid-cols-1 lg:grid-cols-4 gap-3 justify-between'>
         <div className='ps-2 mt-[85px] flex  sticky col-span-1 overflow-auto h-fit top-[85px]'>
-          <div className='hidden lg:block'>
+          <div className='hidden lg:block overflow-auto h-[600px]'>
             <Leftsidebar className='hidden lg:block' />
           </div>
         </div>
-        <div className='mt-0 pt-0 lg:mt-[85px] overflow-auto col-span-2 w-full max-w-full lg:max-w-[800px] mx-auto'>
+        <div className='mt-0 pt-0 lg:mt-[85px] overflow-auto col-span-2 w-full max-w-full lg:max-w-[680px] mx-auto'>
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/users" element={<User />} />

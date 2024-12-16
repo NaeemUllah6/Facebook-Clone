@@ -1,17 +1,17 @@
 import Images from '../../assets/index.js'
 import Friends from '../../assets/images/friends.png'
 import Dashboard from '../../assets/images/dashboard.png'
-import userProfile from '../../assets/images/story.jpg'
+import userProfile from '../../assets/images/467398309_1048881053657276_2908647129857456136_n.jpg'
 export  const Side_bar = [
     {
         id: 1,
         icon: userProfile, className:'rounded-full',
-        text: 'Muhammad NaeemUllah',
+        text: 'Allah Ditta',
     },
     {
         id: 2,
         icon: Friends,
-        text: 'Friends',
+        text: 'Mustaqeem',
         path: '/friends'
     },
     {
@@ -22,27 +22,27 @@ export  const Side_bar = [
     {
         id: 4,
         icon: Images.Feed,
-        text: 'Feeds',
+        text: 'Abdul Rehman',
     },
     {
         id: 5,
         icon: Images.Groups,
-        text: 'Groups',
+        text: 'Ali Raza Hashmi',
     },
     {
         id: 6,
         icon: Images.Market,
-        text: 'Marketplace',
+        text: 'Nazar Fareed Chakoka',
     },
     {
         id: 7,
         icon: Images.Video,
-        text: 'Video',
+        text: 'Ali Khan',
     },
     {
         id: 8,
         icon: Images.Memories,
-        text: 'Memories',
+        text: 'Daniel John',
     },
     {
         id: 9,

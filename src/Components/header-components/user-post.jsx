@@ -95,7 +95,7 @@ function UserPost() {
                 {
                     posts.map((post, index) => (
 
-                        <div className={`${clicked[index===posts] ? 'hidden' : 'block'}`}>
+                        <div className={`${clicked[index1===posts] ? 'hidden' : 'block'}`}>
                             <div className='flex items-center justify-between p-4 bg-white rounded-lg'>
                                 <div className='flex items-center gap-2'>
                                     <img className='rounded-full w-full h-auto' src={userProfile} alt="Profile" />
