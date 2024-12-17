@@ -5,5 +5,6 @@ export const Images={
     Market: require('./images/marketplace.png'),
     Memories:require('./images/memories.webp'),
     Chevron:require('./images/ch.png'),
+    story:require('./images/story.jpg')
 }
 export default Images

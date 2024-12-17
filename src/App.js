@@ -8,6 +8,7 @@ import Videos from './Components/header-components/videos.jsx'
 import Games from './Components/header-components/games.jsx'
 import Leftsidebar from './Components/layout/left_side_bar.jsx';
 import Rightsidebar from './Components/layout/right_side_bar.jsx';
+import Counter from './Components/New folder/counter.jsx';
 function App() {
   return (
 
@@ -19,12 +20,13 @@ function App() {
             <Leftsidebar className='hidden lg:block' />
           </div>
         </div>
-        <div className='mt-0 pt-0 lg:mt-[85px] overflow-auto col-span-2 w-full max-w-full lg:max-w-[680px] mx-auto'>
+        <div className='mt-0 pt-0 lg:mt-[85px] overflow-auto col-span-2 w-full max-w-full lg:max-w-[800px] mx-auto'>
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/users" element={<User />} />
             <Route path="/videos" element={<Videos />} />
             <Route path="/games" element={<Games />} />
+            <Route path="/counter" element={<Counter />} />
           </Routes>
         </div>
         <div className='mt-[85px] col-span-1 flex justify-end ms-auto h-fit sticky top-[85px]'>

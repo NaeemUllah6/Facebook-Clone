@@ -8,7 +8,7 @@ import Post from './user-post'
 function Home() {
     return (
         <>
-            <div className='mt-[-15px] md:mt-4 bg-white p-4  mx-auto rounded-xl shadow shadow-#0000001a z-0'>
+            <div className=' md:mt-4 bg-white p-4  mx-auto rounded-xl shadow shadow-#0000001a z-0'>
                 <div className='flex gap-3 items-center '>
                     <img className='rounded-full ' width='40px' height='40px' src={userProfile} alt="" />
                     <div className='relative w-full'>
